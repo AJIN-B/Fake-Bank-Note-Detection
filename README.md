@@ -1,7 +1,7 @@
 # Fake-Bank-Note-Detection
 
-A "Fake Bank Note Detection using K-means Clustering" project aims to build a system
-that can identify counterfeit banknotes using the K-means clustering algorithm. 
+A **Fake Bank Note Detection using K-means Clustering** project aims to build a system
+that can identify counterfeit banknotes using the **K-means clustering algorithm**. 
 This project leverages machine learning and pattern recognition techniques 
 to differentiate genuine banknotes from counterfeit ones based on various features
 extracted from images of the banknotes. Below is a detailed explanation of the project
@@ -9,26 +9,36 @@ extracted from images of the banknotes. Below is a detailed explanation of the p
 ---
 
 ## Project Overview
-The Fake Bank Note Detection project involves the application of the K-means 
-clustering algorithm to classify banknotes into genuine or counterfeit categories 
+The Fake Bank Note Detection project involves the application of the 
+**K-means clustering algorithm to classify banknotes into genuine or counterfeit** categories 
 based on certain features extracted from images. 
+
+---
 
 ### Dataset Description
 
-Dataset link : [Download](https://archive.ics.uci.edu/ml/datasets/banknote+authentication)
+**Dataset link :** [Download](https://archive.ics.uci.edu/ml/datasets/banknote+authentication)
+
 In here we used a dataset that have 1372 entries of fake and normal banknote.
 Data were extracted from images that were taken from genuine and forged banknote-like 
 specimens. For digitization, an industrial camera usually used for print inspection 
 was used. The final images have 400x 400 pixels. Due to the object lens and distance 
 to the investigated object gray-scale pictures with a resolution of about 660 dpi were 
 gained. Wavelet Transform tool were used to extract features from images.
+
 •	V1 represents variance of Wavelet Transformed image (continuous).
+
 •	V2 represents  skewness of Wavelet Transformed image (continuous).
+
 •	V3 represents  curtosis of Wavelet Transformed image (continuous).
+
 •	V4 represents  entropy of image (continuous).
+
 •	Label represents class .
+
 There are 762 normal banknote and  610 fake banknote.
 
+---
 
 ### The project typically involves the following key steps
 
