@@ -19,22 +19,18 @@ based on certain features extracted from images.
 
 **Dataset link :** [Download](https://archive.ics.uci.edu/ml/datasets/banknote+authentication)
 
-In here we used a dataset that have 1372 entries of fake and normal banknote.
-Data were extracted from images that were taken from genuine and forged banknote-like 
+In here we used a dataset that have **1372 entries of fake and normal banknote**.
+Data were extracted from images that were taken from **genuine and forged banknote**-like 
 specimens. For digitization, an industrial camera usually used for print inspection 
-was used. The final images have 400x 400 pixels. Due to the object lens and distance 
+was used. The final images have **400x 400 pixels**. Due to the object lens and distance 
 to the investigated object gray-scale pictures with a resolution of about 660 dpi were 
-gained. Wavelet Transform tool were used to extract features from images.
+gained. **Wavelet Transform tool were used to extract features from images**.The features are given below.
 
-•	V1 represents variance of Wavelet Transformed image (continuous).
-
-•	V2 represents  skewness of Wavelet Transformed image (continuous).
-
-•	V3 represents  curtosis of Wavelet Transformed image (continuous).
-
-•	V4 represents  entropy of image (continuous).
-
-•	Label represents class .
+- V1 represents variance of Wavelet Transformed image (continuous).
+- V2 represents  skewness of Wavelet Transformed image (continuous).
+- V3 represents  curtosis of Wavelet Transformed image (continuous).
+- V4 represents  entropy of image (continuous).
+- Label represents class .
 
 There are 762 normal banknote and  610 fake banknote.
 
@@ -64,6 +60,8 @@ and the effectiveness of the model in distinguishing between genuine and fake ba
 banknotes by examining the clusters' characteristics and visualizing the separation 
 between the genuine and counterfeit banknotes.
 
+---
+
 **Benefits:**
 - Automated detection of counterfeit banknotes.
 - Enhanced security in banking and financial systems.
@@ -74,6 +72,8 @@ between the genuine and counterfeit banknotes.
 - Ensuring the availability of a comprehensive and diverse dataset for training the model.
 - Achieving a balance between false positives and false negatives in the detection process.
 
+---
+
 **Applications:**
 - Financial institutions and banks can use this system to verify the authenticity of banknotes.
 - Government agencies and law enforcement bodies can employ the system to combat counterfeit money circulation.
@@ -82,6 +82,8 @@ between the genuine and counterfeit banknotes.
 A Fake Bank Note Detection project using K-means clustering represents an 
 essential application of machine learning in ensuring the security and integrity 
 of financial transactions and preventing economic losses due to counterfeit money.
+
+---
 
 ### Basic Requirements:
 
